@@ -1,17 +1,19 @@
 # WhisperX48
 
-English | [简体中文(编写中)](https://github.com/ifeimi/WhisperX48/blob/main/README_CN.md)
+English | [简体中文(编写中)](https://github.com/ifeimi/Whisper48/blob/main/README_CN.md)  
+\
+More information can also be found on [my website](https://ifeimi.github.io/whisper48/)  
 　　
 ## 云端运行 Working on Google Colab
 
-Stable-ts: This project is deployed as a notebook on Google Colab, [click to open](https://colab.research.google.com/github/ifeimi/WhisperX48/blob/main/stable-ts.ipynb).  
+Stable-ts: This project is deployed as a notebook on Google Colab, [click to open](https://colab.research.google.com/github/ifeimi/Whisper48/blob/main/stable-ts.ipynb).  
 \
 WhisperX: Not available for now.  
 \
 　　
 ## 本地运行 Working locally
 
-Unfortunately at the moment the Jupyter Notebook for WhisperX usage is not working correctly. Therefore I opened this stupid [shell usage script for WhisperX](https://colab.research.google.com/github/ifeimi/WhisperX48/blob/main/WhisperX48_shell.ipynb) only. You may need a little bit relevant knowledge to use it, but I have also provided adequate helping notes which I believe should be sufficient.  
+Unfortunately at the moment the Jupyter Notebook for WhisperX usage is not working correctly. Therefore I opened this stupid [shell usage script for WhisperX](https://colab.research.google.com/github/ifeimi/Whisper48/blob/main/WhisperX48_shell.ipynb) only. You may need a little bit relevant knowledge to use it, but I have also provided adequate helping notes which I believe should be sufficient.  
 　　
 ## 示例 Examples
 
@@ -43,8 +45,8 @@ This script relies on [WhisperX](https://github.com/m-bain/whisperX), which prov
 \
 This project is released under the MIT license. See [LICENSE](https://github.com/ifeimi/WhisperX48/blob/main/LICENSE) for further details. \
 \
-本说明文档的最后更新时间为 2023-03-15。\
-This README file was last modified on 2023-03-15. \
+本说明文档的最后更新时间为 2023-03-21。\
+This README file was last modified on 2023-03-21. \
 \
 \
 ![GitHub](https://img.shields.io/github/license/ifeimi/WhisperX48)
