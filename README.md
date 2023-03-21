@@ -1,4 +1,4 @@
-# WhisperX48
+# Whisper48
 
 English | [简体中文(编写中)](https://github.com/ifeimi/Whisper48/blob/main/README_CN.md)  
 \
