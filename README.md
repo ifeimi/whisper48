@@ -2,7 +2,7 @@
 
 English | [简体中文(编写中)](https://github.com/ifeimi/Whisper48/blob/main/README_CN.md)  
 \
-More information can also be found on [my website](https://ifeimi.github.io/whisper48/).  
+This README file serves as a summary of the structure and content of the project. Detailed explanation for the script and helping information can be found on [my website](https://ifeimi.github.io/whisper48/).  
 
 ## 云端运行 Working on Google Colab
 
