@@ -1,6 +1,6 @@
 import re
 
-file_name = './231017_ayaneSR'
+file_name = './[your_file_name]'
 
 srt_file = open(file_name+'.srt', mode='r', encoding='utf-8')
 srt_cut_file = open(file_name+'_cut.srt', mode='w', encoding='utf-8')
