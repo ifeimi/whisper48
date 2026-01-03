@@ -1,5 +1,6 @@
 import re
 import argparse
+import os
 
 def time_to_milliseconds(time_str):
     """Convert time string (HH:MM:SS,mmm) to milliseconds."""
@@ -43,11 +44,11 @@ def process_srt_file(input_file, output_file):
 
 if __name__ == "__main__":
     parse = argparse.ArgumentParser(description="Process SRT file to remove time intervals between subtitles.")
-    parse.add_argument('--input', type=str, help='Input SRT file name (without extension)', required=False)
+    parse.add_argument('--input', '-i', type=str, help='Input SRT file name (without extension)', required=True)
     args = parse.parse_args()
 
-    input_file_path = f"{args.input}.srt"
-    output_file_path = f"{args.input}_cut.srt"
+    input_file_path = f"{args.input}"
+    output_file_path = os.path.splitext(input_file_path)[0] + "_cut.srt"
 
     try:
         process_srt_file(input_file_path, output_file_path)
